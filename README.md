@@ -1,3 +1,1 @@
 # Dec_Team_01
-
-Project Documentation will be updated soon...
