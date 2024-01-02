@@ -1,0 +1,258 @@
+.top-body{
+    margin-top: 50px;
+}
+.top-container{
+    width:100%;
+    background-image:url("C:\Users\Keerthi Korumilli\Desktop\Dec_Team_06-Rajesh_Responsive_webapp\client\public\earth-background.png");
+    background-size: cover;
+    height: 400px;
+    border-radius: 30px;    
+    color: #ffffff;
+    padding: 30px;
+}
+.top-container h1{
+    width: 30%;
+    font-size: 54px;
+    margin-left: 20px;
+}
+.bottom-container{
+    width: 40%;
+    padding: 30px 30px 30px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.overlap-container{
+    position: absolute;
+    z-index: 2;
+    right: 10%;
+    top: 15%;
+}
+.lost-in-space{
+    width: 600px;
+    height: 600px;
+    margin-left: 50px;
+}
+.space-walk-graphs{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 50%;
+    left: 0%;
+}
+.exercising{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    width: 280px;
+    height: 160px;
+    margin-left: 20px;
+}
+.timebar{
+    position: absolute;
+    left: 20%;
+    top: 93%;
+    width: 450px;
+}
+.bottom-container p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.get-started{
+    font-size: 16px;
+    padding: 18px 40px;
+    margin-right: 30px;
+}
+.watch-the-video-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.video-icon{
+    width: 20px;
+    margin: 10px;
+}
+.buttons-container{
+    display: flex;
+    align-items: center;
+}
+@media (max-width:1220px){
+    .top-container h1{
+        width: 40%;
+        font-size: 48px;
+    }
+    .bottom-container{
+        width: 40%;
+    }
+    .overlap-container{
+        width: 50%;
+        left: 35%;
+    }
+}
+@media (max-width:900px) {
+    .space-walk-graphs{
+        width: 200px;
+        left: 20%;
+        top: 60%;
+        height: 150px;
+    }
+    .overlap-container{
+        width: 45%;
+    }
+    .exercising{
+        width: 200px;
+        height: 130px;
+        top: 50%;
+        left: 70%;
+    }
+    .lost-in-space{
+        margin-top: 50px;
+        width: 500px;
+        height: 500px;
+    }
+    .timebar{
+        width: 350px;
+        left: 30%;
+    }
+    .bottom-container p{
+        font-size: 12px;
+    }
+    .get-started{
+        font-size: 12px;
+        padding: 10px 20px;
+        margin-right:0 ;
+    }
+    .watch-the-video-button{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .top-container h1{
+        font-size: 40px;
+    }
+}
+@media (max-width:762px){
+    .overlap-container{
+        position: static;
+        z-index: 1;
+        margin-bottom: 300px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .body{
+        padding: 0;
+    }
+    .top-container{
+        border-radius: 0;
+        background-position: 10%;
+        padding: 10px;
+    }
+    .lost-in-space{
+        position: absolute;
+        top: 30%;
+        right: 20%;
+    }
+    .space-walk-graphs{
+        top: 73%;
+        width:200px;
+        height: 150px;
+        left: 10%;
+    }
+    .exercising{
+        left: 50%;
+        top: 65%;
+        width: 200px;
+        height: 150px;
+    }
+    
+    .bottom-container{
+        width: 100%;
+    }
+    .bottom-container p{
+        width: 100%;
+    }
+    .top-container h1{
+        font-size: 2rem;
+        width: 80%;
+    }
+    .timebar{
+        width: 350px;
+        top: 100%;
+        left: 20%;
+    }
+}
+@media (max-width:600px){
+    .lost-in-space{
+        position: absolute;
+        right: 5%;
+    }
+    .timebar{
+        left: 25%;
+        width: 250px;
+    }
+}
+@media (max-width:480px) {
+    .space-walk-graphs{
+        width: 150px;
+        height: 100px;
+    }
+    .lost-in-space{
+        right: 10%;
+        width: 300px;
+        height: 350px;
+        margin-left: 0;
+    }
+    .exercising{
+        width: 150px;
+        height: 100px;
+    }
+    .timebar{
+        left: 20%;
+        top: 90%;
+    }
+    .overlap-container{
+        margin-bottom: 200px;
+    }
+    .bottom-container{
+        padding-right: 10px;
+    }
+}
+@media (max-width:320px) {
+    .top-container{
+        height: 300px;
+    }
+    .lost-in-space{
+        right: 5%;
+        margin: 0;
+        margin-top: 50px;
+        width: 250px;
+        height: 250px;
+    }
+    .exercising{
+        top: 55%;
+        width: 100px;
+        height: 80px;
+    }
+    .space-walk-graphs{
+        top: 60%;
+        left: 16%;
+        width: 100px;
+        height: 80px;
+    }
+    .timebar{
+        top: 75%;
+        left: 30%;
+        width: 150px;
+    }
+    .overlap-container{
+        margin-bottom: 100px;
+    }
+    .bottom-container{
+        padding: 10px;
+    }
+}

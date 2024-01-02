@@ -1,0 +1,44 @@
+.label {
+    height: 81px;
+    width: 609px;
+}
+
+.label .text-wrapper1 {
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans-ExtraBold", Helvetica;
+    font-size: 64px;
+    font-weight: 800;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 0;
+    padding: 110px;
+}
+
+.label .text-wrapper2 {
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 34.5px;
+    position: fixed;
+    top: 0;
+    width: 735px;
+    padding: 190px 110px;
+    }
+
+.image {
+height: 533px;
+width: 1680px;
+}
+.image .rectangle {
+height: 533px;
+left: 0;
+object-fit: cover;
+position: fixed;
+top: 0;
+width: 1680px;
+}
