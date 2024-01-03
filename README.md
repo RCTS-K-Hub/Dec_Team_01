@@ -56,7 +56,7 @@ We run the Client part using the command ``` npm start ```
 
 This will be the output that has to be displayed on running the command.
 ## Output
-![image](https://github.com/RCTS-K-Hub/Dec_Team_01/assets/96018533/49d37f73-29fa-4037-9e81-99fdc0bcebc0)
+<kbd>![image](https://github.com/RCTS-K-Hub/Dec_Team_01/assets/96018533/49d37f73-29fa-4037-9e81-99fdc0bcebc0)</kbd>
 
 ## Conclusion
 
