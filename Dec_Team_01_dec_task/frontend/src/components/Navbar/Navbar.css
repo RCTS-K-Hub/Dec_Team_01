@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Plus Jakarta Sans"; */
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    padding: 20px;
+    max-width: 1400px;
+}
+/* Resetting default margin and padding for all elements */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling the header container */
+  .header {
+    position: relative;
+    width: 100%;
+    background-color:white; /* Set your desired background color */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Styling the logo */
+  .odyssey {
+    height: 32px;
+    width: 205px;
+  }
+  
+  /* Styling the header elements wrapper */
+  .header-elements {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styling individual text elements */
+  .text-wrapper-12,
+  .text-wrapper-10,
+  .text-wrapper-11,
+  .text-wrapper-9 {
+    font-family: "Plus Jakarta Sans-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    color: #020305;
+    margin-left: 20px;
+    cursor: pointer; /* Add pointer cursor for interactive elements */
+  }
+  
+  /* Styling the Sign in button */
+  .frame-3 {
+    display: flex;
+    align-items: center;
+    background-color: #0d0f12;
+    border-radius: 20px;
+    box-shadow: 0px 19px 45px -10px #0d0f1280;
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer; /* Add pointer cursor for interactive elements */
+    width:121px;
+    height:47px;
+    
+  }
+  
+  .text-wrapper-17 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    margin-left:14px;
+  }
+  
+  /* Media query for tablet view */
+  @media (max-width: 1024px) {
+    .header {
+      padding: 10px;
+    }
+  
+    .odyssey {
+      width: 150px;
+    }
+  
+    .text-wrapper-12,
+    .text-wrapper-10,
+    .text-wrapper-11,
+    .text-wrapper-9 {
+      font-size: 16px;
+    }
+  
+    .frame-3 {
+      padding: 8px 16px;
+    }
+  
+    .text-wrapper-17 {
+      font-size: 16px;
+    }
+  }
+  
+  /* Add styles for the sidebar icon */
+  .sidebar-icon {
+    display: none; /* Initially hide the sidebar icon */
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  /* Media query for mobile view */
+  @media (max-width: 767px) {
+    .header-elements {
+      display: none; /* Hide the navigation items by default in mobile view */
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .header-elements.show-mobile {
+      display: flex; /* Show the navigation items */
+    }
+  
+    .sidebar-icon {
+      display: inline-block; /* Show the sidebar icon */
+    }
+  }
